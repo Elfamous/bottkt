@@ -14,4 +14,4 @@ RUN playwright install --with-deps chromium
 
 COPY . .
 
-CMD ["python", "ton_script.py"]
+CMD ["python", "main.py"]
